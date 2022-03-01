@@ -2,6 +2,7 @@ import { useState, useCallback, useMemo } from "react";
 import { ChildArea } from "./ChildArea";
 import { StyledCompornents } from "./compornents/StyledCompornets";
 import { StyledJsx } from "./compornents/StyledJsx";
+import { Emotion } from "./compornents/Emotion";
 import "./styles.css";
 
 export default function App() {
@@ -25,6 +26,7 @@ export default function App() {
       <ChildArea open={open} onClickClose={onClickClose} />
       <StyledJsx />
       <StyledCompornents />
+      <Emotion />
     </div>
   );
 }
